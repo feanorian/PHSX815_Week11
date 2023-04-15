@@ -1,6 +1,6 @@
 # PHSX815_Week11
 # bin_norm.py
-this code sample from some distribution, and for large sample sizes should approach the normal distribution
+this code samplse from sthe binomial and normal distributions, and for large sample sizes the binomial distribution should approach the normal distribution
 
 ## Usage:
 
