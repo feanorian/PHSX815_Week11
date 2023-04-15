@@ -12,10 +12,7 @@ if __name__ == "__main__":
 	else:
 		samples = 10
 
-
-
-
-	sns.distplot(random.normal(loc=50, scale=5, size=samples), hist=True, label='normal')
-	sns.distplot(random.binomial(n=100, p=0.5, size=samples), hist=True, label='binomial')
+	sns.histplot(random.normal(loc=50, scale=5, size=samples), element = 'step', label='normal', color = 'aqua')
+	sns.histplot(random.binomial(n=100, p=0.5, size=samples),element = 'step', label='binomial', color = 'salmon')
 	plt.legend()
 	plt.show() 
